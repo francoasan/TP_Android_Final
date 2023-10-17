@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoestrellas"
+    android:orientation="vertical"
+    tools:context=".principal.MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/primary_layout"
+        />
+
+    <TextView
+        android:id="@+id/tvBienvenida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/txtBuscarPelicula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Rick and Morty"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtSeleccionePelicula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Seleccione la temporada"
+        android:textColor="@color/white"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgHP1"
+            android:layout_width="100sp"
+            android:layout_height="150sp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/rymtemporada1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnHP1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/verde"
+                android:hint="Rick and Morty: Temporada 1"
+                android:textColorHint="#FFFEFE" />
+
+            <TextView
+                android:id="@+id/txtHP1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Después de haber desaparecido por casi 20 años, Rick Sánchez de repente llega a la casa de su hija Beth, quien busca mudarse con ella y su familia. Beth le da la bienvenida con los brazos abiertos, pero su esposo, Jerry, no está demasiado emocionado por la reunión familiar; la llegada de Rick hace que sus nietos (Rick y Summer) vivan toda clase de locas aventuras de ciencia ficción y la relación entre Beth y Jerry se ve en problemas por ello. Rick convierte el garaje en su laboratorio personal y se pone a trabajar en todo tipo de artilugios y artefactos peligrosos."
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgHP2"
+            android:layout_width="100sp"
+            android:layout_height="150sp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/rymtemporada2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnHP2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/verde"
+                android:hint="Rick and Morty: Temporada 2"
+                android:textColorHint="#FFFEFE"/>
+
+            <TextView
+                android:id="@+id/txtHP2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Rick, Morty y Summer reparan los daños causados en la fiesta que transportó su casa a otra dimensión, para lo que congelan el tiempo según sus necesidades con un cristal mágico. Como consecuencia, los tres son separados en diferentes líneas temporales donde se enfrentan a sus inseguridades, lo que da lugar a la creación de otras 64 realidades alternativas que deberán integrar en una sola para volver a la normalidad. A partir de ahí, los personajes tendrán que enfrentarse a tremendas amenazas de otro mundo."
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgHP3"
+            android:layout_width="100sp"
+            android:layout_height="150sp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/rymtemporada3"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnHP3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/verde"
+                android:hint="Rick and Morty: Temporada 3"
+                android:textColorHint="#FFFEFE"/>
+
+            <TextView
+                android:id="@+id/txtHP3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Las cosas se han complicado para Beth. Jerry le pide que elija entre él y Rick, todo con tal de poner a prueba la fortaleza de su matrimonio. Como ella elige por Rick, ambos se separan. Morty y Summer tienen que enfrentar la separación de sus padres mientras el peculiar abuelo sigue ideando nuevos y peligrosos planes autodestructivos."
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
